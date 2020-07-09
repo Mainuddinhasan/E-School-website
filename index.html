@@ -14,22 +14,24 @@
   
     <div class="container navbanner">
   <nav class="navbar navbar-expand-lg ">
-    <a class="navbar-brand col-6" href="#"><img class="nav-img" src="images/ICON/Logo.png" alt=""></a>
+    <a class="navbar-brand col-md-7" href="#"><img class="nav-img" src="images/ICON/Logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon">Contents</span>
     </button>
     <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
-      <div class="navbar-nav col-6">
+      <div class="navbar-nav col-md-5">
         <a class="nav-item nav-link active" href="#">Books <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="#">Coures</a>
         <a class="nav-item nav-link" href="#">Blogs</a>
         <a class="nav-item nav-link" href="#">Others</a>
-        <button type="button" class="btn">Sign in</button>
-      </div>       
+        
+      </div> 
+   
     </div>
+    <button class="btn btn-success mr-5 green-button">Sign in</button>
   </nav>
   <!-- banners section -->
-  <div class="container col-6 half-width">
+  <div class="container col-md-6 col-sm-12 half-width">
    <div>
       <small class="smColor">Are you ready to learn?</small>
     <h1>Learn With fun <br>on<span class="bannerSpan" > any schedule</span> </h1>
@@ -37,7 +39,7 @@
     <button type="button" class="btn1">Get Started</button>
   </div>
   </div> 
-  <div class="container col-6  half-width">
+  <div class="container col-md-6 col-sm-12 half-width">
     <img class="illustration" src="images/Photos/Illustration.png" alt="">
   </div> 
   </div>
@@ -49,7 +51,7 @@
   <div class="container">
     <div class="row">
      
-      <div class="col-3">
+      <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="icon">
          <img src="images/ICON/book.png" alt="" class="category-img-box1">
          <h5>1500+ Topic</h5>
@@ -57,26 +59,26 @@
         </div>
        </div>
 
-      <div class="col-3">
+      <div class="col-lg-3 col-md-6 col-sm-6">
        <div class="icon">
         <img src="images/ICON/Student.png" alt="" class="category-img">
-        <h5>1500+ Topic</h5>
+        <h5>1800+ Student</h5>
         <p>Learn Anythings</p>
        </div>
       </div>
 
-      <div class="col-3">
+      <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="icon">
           <img src="images/ICON/Test.png" alt="" class="category-img-box">
-        <h5>1500+ Topic</h5>
+        <h5>9k+ Test Token</h5>
         <p>Learn Anythings</p>
-        </div>
+        </div>s
       </div>
      
-      <div class="col-3">
+      <div class="col-lg-3 col-md-6 col-sm-6">
        <div class="icon">
         <img src="images/ICON/Students.png" alt="" class="category-img-box">
-        <h5>1500+ Topic</h5>
+        <h5>25k+ Total Students</h5>
         <p>Learn Anythings</p>
        </div>
       </div>
@@ -102,7 +104,7 @@
           <img src="images/ICON/calendar.png" alt="">
         <small class="text-muted">Start 20 April,2021</small>
       </div>
-      <div class="footer">
+      <div class="footer ">
         <img src="images/ICON/people.png" alt="">
         <small class="text-muted">60 Seats</small>
       </div>
@@ -148,14 +150,14 @@
 </div>
 
 <!-- Testimonial -->
-<section class="container newSection">
+<section class="container newSection test-bg">
   <h2 class="heading">Testimonial</h2>
 <div class="container card-margin d-flex justify-content-between align-items-center ">
 
-  <div class="col-4">
+  <div class="col-sm-4 col-md-4 col-lg-3">
 <img src="images/Photos/Man.png" alt="" class="test-img">
   </div>
-  <div class="col-8">
+  <div class="col-sm-8 col-md-8 col-lg-9 test-paragraph">
      <p>
        There are many variatins of Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum earum assumenda at ab tempore. Amet, quibusdam voluptatum expedita molestias mollitia debitis. Tempora ipsum, deleniti quas placeat cumque soluta molestiae ea.
      </p>
@@ -163,18 +165,33 @@
 </div>
 </section>
 
-<!-- Footer section -->
 
-<div class="container d-flex justify-content-between footer1 ">
-  <div class="col-4">
+<div class="container d-flex align-items-center justify-content-center orange-bg" id="subscribe">
+  <div class="newSection">
+    <h3>NEWS LETTER</h3>
+    <h6>Get updates on Course Offers, specials and more</h6>
+  </div>
+</div>
+<div class="container">
+  <input class="form-control" placeholder="Your Email" type="email ">
+
+  <center><button class="subscribe-button">SUBSCRIBE US</button></center>
+</div>
+
+
+<!-- Footer section -->
+<section class="container footer1">
+<div class="container d-flex justify-content-between">
+  <div class="col-sm-3 col-md-4">
 <p>
   Millions of people of all ages and from around the world are improving their lives with us
 </p>
   </div>
-  <div class="footer2 col-8 d-flex justify-content-between">
+  <div class="footer2 col-sm-9 col-md-8  d-flex justify-content-between">
     <div>
-     <b>Course</b>
+     
      <ul>
+       <li><b>Course</b></li>
        <li>Graphic Design</li>
        <li>Web Design</li>
        <li>Business</li>
@@ -183,8 +200,9 @@
      </ul>
     </div>
     <div>
-      <b>Teams</b>
+     
       <ul>
+        <li> <b>Teams</b></li>
         <li>Graphic Design</li>
         <li>Web Design</li>
         <li>Business</li>
@@ -192,18 +210,25 @@
         <li>Engineering</li>
       </ul>
     </div>
-    <div>
-      <b>Useful Links</b>
+    <div class="links">
+    
       <ul>
-        <a href=""><li>Graphic Design</li></a>
-        <a href=""><li>Web Design</li></a>
-        <a href=""><li>Business</li></a>
-        <a href=""><li>Marketing</li></a>
-        <a href=""><li>Engineering</li></a>
+        <li><b>Useful Links</b></li>
+        <a href="#"><li>Graphic Design</li></a>
+        <a href="#"><li>Web Design</li></a>
+        <a href="#"><li>Business</li></a>
+        <a href="#"><li>Marketing</li></a>
+        <a href="#"><li>Engineering</li></a>
       </ul>
     </div>
   </div>
 </div>
+<div>
+      
+  <footer class="copyright" >  A personal initiative. <img src="images/download.png" alt="">  All Rights Reserved.</footer>
+
+</div>
+</section>
 
 
 
